@@ -1,60 +1,53 @@
-/* @import url('./global.css');
+@import url('./global.css');
 
 header{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: 22px 0px;
+    align-items: center;    
     background-color: var(--color-neutral-silver);
-    box-sizing: content-box;
 }
 
 .logo{
     display: flex;
+    padding: 30px 0px;
     width: 155px;
     height: 24px;
     gap: 8px;
-    align-items: center; 
-    font-family: "Inter", sans-serif;
+    align-items: center;
     font-weight: 800;  
     font-size: 26px;
 }
 
-nav{
+.nav-header ul{
     display: flex;
+    list-style: none;
     gap: 50px;
-    color: var(--color-neutral-black);
-}
-.nav{
-    color: var(--color-neutral-black);
-    
 }
 
-.autenticar{
-    display: flex;
+.nav-header a{
+    text-decoration: none;
+    color: #18191F;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.btn-header{
     gap: 14px;
+    padding: 22px 0px;
 }
-.login{
-    width: 74px;
-    height: 40px;
-    background-color: var(--color-neutral-silver);
+.btn-login{
+    padding: 10px 20px;
+    background: transparent;
     color: var(--color-primary);
-    font-family: "Inter", sans-serif;
-}
-
-.login:hover{
     cursor: pointer;
 }
 
-.sign-up{
-    width: 91px;
-    height: 40px;
-    background-color: var(--color-primary);
+.btn-SignUp{
     color: var(--color-neutral-white);
+    padding: 10px 20px;
+    background-color: var(--color-primary);    
     border-radius: 6px;
-    font-family: "Inter", sans-serif;
-}
-
-.sign-up:hover{
     cursor: pointer;
-} */
+}

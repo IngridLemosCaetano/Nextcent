@@ -37,3 +37,7 @@
     --font: 'Inter';
     
 }
+
+body{
+    font-family: var(--font)
+}
