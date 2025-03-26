@@ -5,6 +5,21 @@
     text-decoration: none;
 }
 
+body{
+    font-family: var(--font)
+}
+
+p{
+    color: var(--color-neutral-grey);
+    font-size: 16px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-neutral-d_grey);
+}
+
 :root{
     --color-neutral-black: #263238;
     --color-neutral-d_grey: #4D4D4D;
@@ -23,7 +38,7 @@
     --color-shade3: #237D31;
     --color-shade4: #1B5E1F;
     --color-shade5: #103E13;
-   
+    
     --color-tint1: #66BB69;
     --color-tint2: #81C784;
     --color-tint3: #A5D6A7;
@@ -38,6 +53,3 @@
     
 }
 
-body{
-    font-family: var(--font)
-}

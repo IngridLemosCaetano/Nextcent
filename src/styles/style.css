@@ -1,5 +1,7 @@
 @import url('./global.css');
 
+/* ------------ HEADER ------------ */
+
 header{
     display: flex;
     justify-content: space-around;
@@ -8,12 +10,7 @@ header{
 }
 
 .logo{
-    display: flex;
-    padding: 30px 0px;
-    gap: 8px;
-    align-items: center;
-    font-weight: 700;  
-    font-size: 26px;
+    padding: 30px 0px;    
 }
 
 .nav-header ul{
@@ -31,14 +28,10 @@ header{
     font-weight: bold;
 }
 
-.btn-header{
-    gap: 14px;
-    padding: 22px 0px;
-}
 .btn-login{
-    padding: 10px 20px;
-    background: transparent;
     color: var(--color-primary);
+    background: transparent;
+    padding: 10px 20px;  
     cursor: pointer;
 }
 
@@ -49,3 +42,80 @@ header{
     border-radius: 6px;
     cursor: pointer;
 }
+
+.btn-header{
+    gap: 14px;
+    padding: 22px 0px;
+}
+
+/* ------------ HEADER ------------ */
+
+/* ------------ MAIN ------------ */
+main{
+    display: flex;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    justify-content: center;
+    gap: 104px;
+    padding: 96px 0px;        
+}
+
+.content-lessons{
+    width: 657px;
+}
+
+h1{
+    font-family: var(--font);
+    color: var(--color-neutral-d_grey);
+    font-size: 64px;
+    font-weight: 600;
+}
+
+h1 span{
+    color: var(--color-primary);
+}
+
+.content-lessons p {
+    margin-top: 16px;
+}
+
+.btn-primary{    
+    color: var(--color-neutral-white);
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    padding: 14px 32px;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+/* ------------ FIM MAIN ------------ */
+
+/* ------------ OUR CLIENTS ------------ */
+.our-client{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.our-client p{
+    margin-top: 8px;
+}
+
+.logo-clients{
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px 0px;
+    margin-top: 16px;
+}
+
+/* ------------ MANAGE SYSTEM ------------ */
+.manage-system{
+    text-align: center;    
+    margin-top: 40px;    
+}
+
+.manage-system h2{
+    width: 542px;
+}
+
+/* ------------ FIM MANAGE SYSTEM ------------ */
