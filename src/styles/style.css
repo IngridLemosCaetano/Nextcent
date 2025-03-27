@@ -196,10 +196,66 @@ h1 span{
     line-height: 20px;
     margin-top: 16px;
 }
-
 /* ------------ FIM PIXELGRADE ------------ */
 
 /* ------------ BUSINESS REINVENT ------------ */
+.business-reinvent{
+    display: flex;
+    margin-top: 48px;
+    background-color: var(--color-neutral-silver);
+    gap: 204px;
+    justify-content: center;
+    align-items: center;
+    height: 288px;
+}
 
+.business-reinvent-content{
+    height: 120px;
+    width: 408px;
+}
 
+.business-reinvent-content h2{
+    font-weight: 600;
+    line-height: 44px;
+    width: 390px;
+}
+
+.business-reinvent-content span{
+    color: var(--color-primary);
+}
+
+.business-reinvent-content p{
+    margin-top: 8px;
+}
+
+.business-reinvent-data{
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 160px;
+    gap: 40px;
+}
+
+.business-reinvent-data-content{
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+}
+
+.business-reinvent-data-card{
+    display: flex;    
+    gap: 16px;
+    width: 255px;
+}
+
+.business-reinvent-data-card-text img{
+    width: 48px;
+    height: 48px;
+}
+
+.business-reinvent-data-card-text h3{
+    color: var(--color-neutral-d_grey);
+    font-size: 28px;
+    font-weight: bold;
+}
 /* ------------ FIM BUSINESS REINVENT ------------ */
