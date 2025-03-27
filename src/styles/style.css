@@ -173,54 +173,33 @@ h1 span{
     justify-content: center;
     margin-top: 42px;
     gap: 49px;
+    align-items: center;
+}
+
+.pixelgrade img{
+    padding: 52px 0px;
 }
 
 .pixelgrade-content{
     width: 661px;
+    height: 268px;
     
 }
 
-/* .pixelgrade{
-    display: flex;
-    gap: 49px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 42px;
-}
-
-.pixelgrade-container{
-    width: 661px;
-    height: 184px;
-    gap: 32px;
-}
-
-.pixelgrade-container-text{
+.pixelgrade-content h2{
     width: 601px;
-    height: 184px;
-    gap: 16px;
-}
-
-.pixelgrade-container-text h2{
-    width: 534px;
-    font-size: 36px;
-    font-weight: 600px;
     line-height: 44px;
+    font-weight: 600;
 }
 
-.pixelgrade-container-text p{
-    font-size: 14px;
+.pixelgrade-content p{
     line-height: 20px;
+    margin-top: 16px;
 }
-
-.pixelgrade-container button{
-    background-color: var(--color-primary);
-    color: var(--color-neutral-white);
-    padding: 14px 32px;
-    border-radius: 4px;
-}
-
-.pixelgrade-container button:hover{
-    cursor: pointer;
-} */
 
 /* ------------ FIM PIXELGRADE ------------ */
+
+/* ------------ BUSINESS REINVENT ------------ */
+
+
+/* ------------ FIM BUSINESS REINVENT ------------ */
