@@ -133,7 +133,6 @@ h1 span{
 
 .cards-container article{    
     width: 299px;
-    height: 260px;
     box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.20);
     padding: 24px 16px;
     text-align: center;
@@ -157,7 +156,7 @@ h1 span{
     font-size: 28px;
     margin-bottom: 8px;
     width: 231px;
-    margin: 0 auto;
+    margin: 0 auto; /* centraliza o texto */
 }
 
 .cards-container article p{
@@ -166,3 +165,62 @@ h1 span{
 }
 
 /* ------------ FIM MANAGE SYSTEM ------------ */
+
+/* ------------ PIXELGRADE ------------ */
+
+.pixelgrade{
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+    gap: 49px;
+}
+
+.pixelgrade-content{
+    width: 661px;
+    
+}
+
+/* .pixelgrade{
+    display: flex;
+    gap: 49px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.pixelgrade-container{
+    width: 661px;
+    height: 184px;
+    gap: 32px;
+}
+
+.pixelgrade-container-text{
+    width: 601px;
+    height: 184px;
+    gap: 16px;
+}
+
+.pixelgrade-container-text h2{
+    width: 534px;
+    font-size: 36px;
+    font-weight: 600px;
+    line-height: 44px;
+}
+
+.pixelgrade-container-text p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.pixelgrade-container button{
+    background-color: var(--color-primary);
+    color: var(--color-neutral-white);
+    padding: 14px 32px;
+    border-radius: 4px;
+}
+
+.pixelgrade-container button:hover{
+    cursor: pointer;
+} */
+
+/* ------------ FIM PIXELGRADE ------------ */
