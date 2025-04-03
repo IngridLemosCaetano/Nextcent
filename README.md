@@ -4,14 +4,14 @@
 
 <!-- MODELO MENU DE NAVEGAÇÃO -->
 <p align="center">
- <a href="#-Descrição-do-entregável">Descrição do Entregável</a> •
+ <a href="#-descrição-do-entregável">Descrição do Entregável</a> •
  <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
+<!--  <a href="#-funcionalidades">Funcionalidades</a> • -->
  <a href="#-layout">Layout</a> • 
  <a href="#-como-executar-o-projeto">Como executar</a> • 
  <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-autor">Autor</a> • 
- <a href="#user-content--licença">Licença</a>
+ <a href="#-autora">Autora</a> • 
+ <a href="#-licença">Licença</a>
 </p>
 
 <!-- MODELO DE DESCRIÇÃO -->
@@ -53,11 +53,14 @@ NextCent é um site que desenvolvi a partir de um template do figma
 2 - Abrir em um editor de código <br>
 3 - Abrir o arquivo index.html
 
+<!-- ---------------------------------------------------------------------- -->
 
 <!-- MODELO DE PRÉ REQUISITOS -->
 ### Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina um editor de código.
+Antes de começar, você vai precisar ter instalado em sua máquina o seguinte editor de código:
+[VSCode](https://code.visualstudio.com/)
+
 ---
 
 <!-- ---------------------------------------------------------------------- -->
@@ -65,8 +68,15 @@ Antes de começar, você vai precisar ter instalado em sua máquina um editor de
 <!-- MODELO DE TECNOLOGIAS -->
 ## 🛠 Tecnologias
 
-Ferramentas: 
-#### Desenvolvimento (HTML)
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **Desenvolvimento**  ([HTML](https://reactjs.org/)) 
+
+
+#### **Prototipação** ([Figma](https://www.figma.com/))
+
+- **[Protótipo](https://www.figma.com/file/J1zv4Q8hCFhxhuZE5XINxu/Prototipa%C3%A7%C3%A3o-desafio-Digitalk?t=9EYQVYnf9XIZWWZr-1)**
+
 ---
 
 <!-- ---------------------------------------------------------------------- -->
@@ -85,7 +95,7 @@ Ferramentas:
 <!-- ---------------------------------------------------------------------- -->
 
 <!-- MODELO DE AUTOR-->
-## 🦸 Autor
+## <img src="https://github.com/user-attachments/assets/c7002718-57e0-4c87-9a47-5c14e509d9ea" width="30px" /> Autora
 
 <a href="https://br.linkedin.com/in/ingrid-lemos-caetano">
 Ingrid Lemos Caetano Silva</a>
