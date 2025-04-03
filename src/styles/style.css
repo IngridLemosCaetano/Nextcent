@@ -523,3 +523,107 @@ h1 span{
 }
 
 /* ---------------------- FIM PELLENTESQUE --------------------  */
+
+
+/* ---------------------- FOOTER --------------------  */
+
+footer {
+    background-color: var(--color-neutral-black);
+    display: flex;
+    justify-content: center;
+    padding: 64px 0px;
+    gap: 284px;
+}
+
+.copyright{
+    margin: 40px 0px;
+}
+
+.copyright p{
+    color: var(--color-neutral-silver);
+}
+
+.copyright p:nth-of-type(1){
+    margin-top: 8px;
+}
+
+.footer-socials{
+    display: flex;
+    gap: 16px;
+    /* justify-content: center; */
+}
+
+.social-icons {
+    background-color: #3C474C;
+    padding: 7.47px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.social-icons:hover{
+    transform: translateY(-10px);
+    background-color: var(--color-primary);
+    
+}
+
+.footer-navigation{
+    display: flex;
+    gap: 97px;
+}
+
+.footer-navigation h2{
+    margin-bottom: 24px;
+    font-size: 20px;
+    color: var(--color-neutral-white);
+}
+
+.footer-links{
+    list-style: none;
+    font-size: 14px;
+}
+
+.footer-item {
+    color: var(--color-neutral-silver);
+    display: block;
+    margin-top: 12px;
+    transition: 0.4s;
+}
+
+.footer-item:hover{
+    color: var(--color-primary);
+    transform: translateX(10px);
+}
+
+.footer-container form{
+    display: flex;
+    align-items: center;
+}
+
+.footer-container form input{
+    padding: 10px;
+    border-radius: 8px 0px 0px 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #D9DBE1;
+    outline: none;
+}
+
+.footer-container form input::placeholder{
+    color: #D9DBE1;    
+}
+
+.stay-button{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0px 8px 8px 0px;
+    display: flex;
+    align-items: center;
+    padding: 8.5px;
+    cursor: pointer;
+}
+
+.stay-button:hover{
+    background-color: var(--color-primary);
+}
+/* ---------------------- FIM FOOTER --------------------  */
