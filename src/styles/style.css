@@ -46,6 +46,7 @@ header{
 .btn-header{
     gap: 14px;
     padding: 22px 0px;
+    display: flex;
 }
 
 /* ------------ HEADER ------------ */
@@ -585,7 +586,7 @@ footer {
     font-size: 14px;
 }
 
-.footer-item {
+.footer-item{
     color: var(--color-neutral-silver);
     display: block;
     margin-top: 12px;
