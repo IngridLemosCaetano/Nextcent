@@ -628,3 +628,183 @@ footer {
     background-color: var(--color-primary);
 }
 /* ---------------------- FIM FOOTER --------------------  */
+
+
+/* ---------------------- RESPONSIVIDADE --------------------  */
+@media(max-width: 835px){
+    /* ------------- Main ------------- */
+    main{
+        gap: 30px;
+        padding: 25px;
+    }
+
+    /* ------------- Manage ------------- */
+    .cards-container{
+        width: 95%;
+        gap: 20px;
+        margin: 0 auto;
+        /* justify-content: space-between; */
+    }
+
+    /* ------------- PixelGrade ------------- */
+    .pixelgrade{
+        width: 95%;
+        margin-top:0px;
+        justify-content: end;
+        gap: 10px;
+    }
+    .pixelgrade-content{
+        width: 95%;
+    }
+    .pixelgrade-content p{
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px){
+    /* ------------- Header ------------- */
+    .nav-header, .btn-header{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: flex;
+        flex-direction: column;
+    }
+    /* ------------- Fim Header ------------- */
+
+    /* ------------- Main ------------- */
+    main{        
+        flex-direction: column-reverse;
+        gap: 30px;
+        padding: 25px;
+    }
+    
+    main img{
+        width: 300px;
+    }
+
+    .content-lessons{
+        width: 90%;
+    }
+
+    .content-lessons h1{
+        font-size: 50px;
+    }
+    /* ------------- Fim Main ------------- */
+
+    /* ------------- Manage ------------- */
+    .manage-system h2{
+        width: 95%;
+    }
+
+    .cards-container{
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+    /* ------------- Fim Manage ------------- */
+
+    /* ------------- PixelGrade ------------- */
+    .pixelgrade{
+        margin-top:0px;
+        flex-direction: column;  
+        align-items: center;
+        padding: 52px 0px;      
+    }
+
+    .pixelgrade-content{
+        width: 95%;
+    }
+
+    .pixelgrade-content h2{
+        width: 100%;
+    }
+
+    .pixelgrade-content p{
+        text-align: justify;
+    }
+
+    
+    /* ------------- Fim PixelGrade ------------- */
+
+    /* ------------- Helping Local ------------- */
+    .helping-local{
+        flex-direction: column;
+        gap: 50px;
+        margin: 88px 0px 48px 0px; /* preciso verificar o código do Matheus... Gambiarra */
+    }
+
+    .helping-local h2, .helping-local p{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .helping-statistic{
+        grid-template-columns: repeat(1, 1fr);
+        /* gap: 20px;
+        padding: 20px; */
+    }
+    /* ------------- Fim Helping Local ------------- */
+
+    /* ------------- How Design ------------- */
+    .how-design{
+        flex-direction: column;
+    }
+    .content-how-design{
+        width: 90%;
+    }
+
+    .content-how-design h2, .content-how-design p{
+        width: 100%;
+        text-align: justify;
+    }
+    /* ------------- Fim How Design ------------- */
+
+    /* ------------- Customer ------------- */
+    .customer{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .customer-content{
+        width: 90%;
+        text-align: justify;
+    }
+    .customer-container{
+        flex-direction: column;
+    }
+    /* ------------- Fim Customer ------------- */
+
+    /* ------------- Caring ------------- */
+    .caring-marketing-p{
+        width: 90%;
+    }
+    .caring-marketing-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+    /* ------------- Fim Caring ------------- */
+
+    /* ------------- Pellentesque ------------- */
+    .pellentesque h2{
+        font-size: 36px;
+        width: 90%;
+    }
+    /* ------------- Fim Pellentesque ------------- */
+
+    /* ------------- Footer ------------- */
+    footer{
+        flex-direction: column;
+        align-items: start;
+        padding: 64px 20px;
+        gap: 40px;
+    }
+    .footer-navigation{
+        flex-direction: column;
+        gap: 40px;
+    }
+    /* ------------- Fim Footer ------------- */
+}
