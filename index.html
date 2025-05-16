@@ -17,7 +17,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nextcent</title>
-    <link rel="icon" type="image/png" href="./src/assets/images/logo.png" />
+    <!-- <link rel="icon" type="image/png" href="./src/assets/images/logo.png" /> -->
     <link rel="stylesheet" href="./src/styles/style.css" />
     <link rel="stylesheet" href="./src/styles/global.css" />
 
@@ -41,13 +41,12 @@
       </div>
       <nav class="nav-header">
         <ul>
-          <a href="#">
-            <li class="active">Home</li></a>
-          <a href="#"><li>Service</li></a>
-          <a href="#"><li>Feature</li></a>
-          <a href="#"><li>Product</li></a>
-          <a href="#"><li>Testimonial</li></a>
-          <a href="#"><li>FAQ</li></a>
+          <li class="active"><a href="#">Home</a> </li>
+          <li><a href="#">Service</a> </li>
+          <li><a href="#">Feature</a> </li>
+          <li><a href="#">Product</a> </li>
+          <li><a href="#">Testimonial</a> </li>
+          <li><a href="#">FAQ</a> </li>
         </ul>
       </nav>
 
@@ -55,6 +54,32 @@
         <a href="#"><button class="btn-login">Login</button></a>
         <a href="#"><button class="btn-SignUp">Sign up</button></a>
       </div>
+
+      <!------------- Menu Mobile ------------->
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="menu-mobile" id="menu-mobile">
+        <nav class="nav-header-mobile">
+          <ul>            
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </nav>
+  
+        <div class="btn-header-mobile">
+          <a href="#"><button class="btn-login">Login</button></a>
+          <a href="#"><button class="btn-SignUp">Sign up</button></a>
+        </div>
+      </div>
+
     </header>
 
     <!-------- Fim Header -------->
@@ -572,5 +597,6 @@
     </footer>
 
     <!----------------------FIM FOOTER -------------------- -->
+    <script src="./src/js/script.js"></script>
   </body>
 </html>
